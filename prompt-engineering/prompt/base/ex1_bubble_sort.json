@@ -1,0 +1,7 @@
+{
+    "constraints": [
+        "Respond in plain text paragraphs.",
+        "Use clear headers."
+    ],
+    "user_query": "Here is a piece of code. Please refactor it for performance and explain the complexity in plain text.\n\nCODE:\ndef sort_list(arr):\n    n = len(arr)\n    for i in range(n):\n        for j in range(0, n-i-1):\n            if arr[j] > arr[j+1] :\n                arr[j], arr[j+1] = arr[j+1], arr[j]\n    return arr"
+}

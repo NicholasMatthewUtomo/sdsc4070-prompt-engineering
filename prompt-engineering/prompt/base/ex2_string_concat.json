@@ -1,0 +1,7 @@
+{
+    "constraints": [
+        "Respond in plain text paragraphs.",
+        "Use clear headers."
+    ],
+    "user_query": "Here is a piece of code. Please refactor it for performance and explain the complexity in plain text.\n\nCODE:\ndef build_sentence(words):\n    res = ''\n    for w in words:\n        res = res + w + ' '\n    return res"
+}

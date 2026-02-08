@@ -1,0 +1,7 @@
+{
+    "constraints": [
+        "Respond in plain text paragraphs.",
+        "Use clear headers."
+    ],
+    "user_query": "Here is a piece of code. Please refactor it for performance and explain the complexity in plain text.\n\nCODE:\ntotal = 0\ndef add_to_total(nums):\n    global total\n    for x in nums:\n        total += x\n    return total"
+}

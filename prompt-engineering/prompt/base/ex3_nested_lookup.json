@@ -1,0 +1,7 @@
+{
+    "constraints": [
+        "Respond in plain text paragraphs.",
+        "Use clear headers."
+    ],
+    "user_query": "Here is a piece of code. Please refactor it for performance and explain the complexity in plain text.\n\nCODE:\ndef find_users(target_ids, all_users):\n    # all_users is a list of dicts like {'id': 1, 'name': 'x'}\n    found = []\n    for uid in target_ids:\n        for u in all_users:\n            if u['id'] == uid:\n                found.append(u)\n    return found"
+}

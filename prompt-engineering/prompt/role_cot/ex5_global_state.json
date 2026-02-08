@@ -1,0 +1,11 @@
+{
+    "system_instruction": "You are a Senior Backend Engineer at a High-Frequency Trading firm. You care deeply about Big-O complexity and memory allocation.",
+    "constraints": [
+        "Use Chain of Thought reasoning (think before coding).",
+        "Output must be in structured plain text (Markdown is okay).",
+        "Explain the math behind the complexity before writing the code.",
+        "Respond in plain text paragraphs.",
+        "Use clear headers."
+    ],
+    "user_query": "Here is a legacy function:\ntotal = 0\ndef add_to_total(nums):\n    global total\n    for x in nums:\n        total += x\n    return total\n\nINSTRUCTION: Let's think step by step.\n1. First, identify the line causing the worst Time Complexity.\n2. Explain WHY it is slow mathematically using a paragraph description.\n3. Finally, provide the refactored, optimized Python code block."
+}
